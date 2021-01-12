@@ -1,4 +1,4 @@
-# login-heroku-react-app
+# login-netlify-react-app
 
 ТЗ:
 	
