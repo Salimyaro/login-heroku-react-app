@@ -7,8 +7,7 @@
 .searchForm {
   display: flex;
   align-items: center;
-  width: 100%;
-  max-width: 600px;
+  padding: 8px;
   background-color: rgba(255, 255, 255, 0.452);
   border-radius: 3px;
   overflow: hidden;
@@ -16,11 +15,11 @@
 
 .button {
   display: inline-block;
-  width: 100px;
-  height: 48px;
+  width: 70px;
+  height: 50px;
   border: 0;
   background-image: url('../../img/log-in.svg');
-  background-size: 40%;
+  background-size: 45%;
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
@@ -47,8 +46,9 @@
 }
 
 .input {
-  display: inline-block;
-  width: 100%;
+  display: block;
+  width: 350px;
+  height: 30px;
   background-color: transparent;
   font: inherit;
   border: none;

@@ -20,8 +20,8 @@ body {
   text-shadow: 2px 2px 3px rgb(73, 73, 73);
   background: radial-gradient(
     circle,
-    rgb(209 185 255) 0%,
-    rgb(255 181 132) 100%
+    rgb(0 197 255 / 35%) 0%,
+    rgb(0 24 243 / 63%) 100%
   );
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

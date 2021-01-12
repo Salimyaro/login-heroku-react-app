@@ -4,7 +4,9 @@ import SignInForm from '../../components/SignInForm';
 
 function SignInPage({ tokenChange }) {
   const [user, setUser] = useState(null);
-  const [message, setMessage] = useState('Введите логин и пароль');
+  const [message, setMessage] = useState(
+    'Enter your username and password please',
+  );
 
   useEffect(() => {
     if (!user) return;
@@ -14,7 +16,7 @@ function SignInPage({ tokenChange }) {
         tokenChange(res.data.token);
       }
     });
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
 
   function handleSubmit(data) {

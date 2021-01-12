@@ -4,7 +4,9 @@ import SignUpForm from '../../components/SignUpForm';
 
 function SignUpPage({ tokenChange }) {
   const [user, setUser] = useState(null);
-  const [message, setMessage] = useState('Введите логин, email и пароль');
+  const [message, setMessage] = useState(
+    'Enter your login, email and password please',
+  );
 
   useEffect(() => {
     if (!user) return;
